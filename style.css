@@ -1,0 +1,236 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	line-height:24px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a, a:hover{
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* main header section */
+
+/* nav section */
+
+.main-header {
+	background:url(images/banner2.png)center top no-repeat;
+	background-size:cover;
+}
+
+.main-header {
+	padding:5rem 0rem;
+	padding-bottom:10rem;
+}
+
+
+
+.main-header .navbar-brand {
+	font-size:2.2rem;
+	font-weight:700;
+	color:#1c2056;
+}
+
+.main-header #logo-h{
+	color:#2870db;
+}
+
+.main-header .bg-light {
+    background-color: transparent!important;
+}
+
+
+.main-header nav ul.navbar-nav {
+	
+}
+
+.main-header nav ul.navbar-nav li.nav-item {
+	margin-right:1.6rem;
+}
+
+.main-header nav ul.navbar-nav li.nav-item a.nav-link {
+	color:#fff;
+}
+
+.main-header nav ul.navbar-nav li.nav-item a.nav-link:hover {
+	/* color:#fff; */
+	color:#2870db;
+}
+
+.main-header .form-inline .btn-outline-success{
+	width:2.5rem;
+	height:1rem;
+}
+
+
+.main-header nav ul.navbar-nav .btn-link {
+	/* width:2.5rem; */
+	/* height:1rem; */
+	background:white;
+	border-radius:15px;
+	padding-left:1.7rem;
+	padding-right:1.7rem;
+	/* margin-bottom:5rem; */
+	color:#14215e;
+}
+
+.main-header nav ul.navbar-nav .btn-link:hover, 
+.main-header nav ul.navbar-nav .btn-link:active {
+	text-decoration:none;
+	color:#fff;
+	background:#2870db;
+}
+
+/* banner inside main-header code goes here */
+
+.banner .banner-info {
+	margin-top:5rem;
+	padding:1rem 0rem 5rem 0rem;
+}
+
+.banner .banner-info h1 {
+	margin-bottom:1.5rem;
+	font-weight:700;
+	color:#1c2056;
+	line-height:3.2rem;
+}
+.banner .banner-info p {
+	margin-bottom:6rem;
+	color:#8b879d;
+	font-size:1rem;
+	line-height:2.5rem;
+}
+.banner .banner-info a.btn-link {
+	background: #2970DC;
+    padding: 20px 50px;
+    border-radius: 35px;
+    color: #fff;
+    border: 1px solid #2970DC;
+	
+}
+
+.banner .banner-info a.btn-link:hover {
+	background:#fff;
+	color:#2970DC;
+}
+
+.banner .banner-info a.btn-link:hover {
+	text-decoration:none;
+}
+
+/* main section started here  */
+
+
+.main-section {
+	padding:5rem 0rem 0rem 0rem;
+	background:url(images/main.png)center top no-repeat;
+	background-size:cover;
+}
+
+.main-heaher-info {
+	display:flex;
+	justify-content:center;
+}
+
+.main-heading h3 {
+	color:#1c2056;
+	font-weight:700;
+}
+
+/* voluntair section starts here  */
+
+
+.social-work {
+	padding-top:18rem;
+	padding-bottom:20rem;
+	
+}
+
+.social-work .advocate {
+	margin-bottom:5rem;
+}
+
+.social-work .advocate .a-info {
+	background:#fff;
+	border-radius:10px;
+	padding:3rem;
+}
+.social-work .advocate .a-info h5 {
+	font-weight:700;
+	color:#1c2056;
+	padding-bottom:3rem;
+	
+}
+.social-work .advocate .a-info p {
+	
+	color:#8b879d;
+	font-size:1rem;
+	line-height:2.5rem;
+}
+
+/* volunteir code starts here */
+
+.social-work .volunteer {
+	margin-bottom:5rem;
+}
+
+.social-work .volunteer .v-info {
+	background:#fff;
+	border-radius:10px;
+	padding:3rem;
+}
+.social-work .volunteer .v-info h5 {
+	font-weight:700;
+	color:#1c2056;
+	padding-bottom:3rem;
+	
+}
+.social-work .volunteer .v-info p {
+	
+	color:#8b879d;
+	font-size:1rem;
+	line-height:2.5rem;
+}
+
+/* explore  */
+
+.explore {
+	align-items:center;
+	
+}
+
+.learn {
+	display:flex;
+	justify-content:center;
+}
+
+.explore .learn .btn-link {
+	background: #2970DC;
+    padding: 20px 50px;
+    border-radius: 35px;
+    color: #fff;
+    border: 1px solid #2970DC;
+	/* margin-left:5rem; */
+	
+	
+}
+
+.explore .learn .btn-link:hover {
+	background:#fff;
+	color:#2970DC;
+	text-decoration:none;
+}
+
+.support {
+	
+}
